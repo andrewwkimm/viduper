@@ -1,0 +1,8 @@
+{
+	"name": "Rust",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"postCreateCommand": "bash ./.devcontainer/setup.sh"
+}
